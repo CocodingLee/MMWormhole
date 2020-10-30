@@ -33,10 +33,12 @@
 #endif
 
 #import "MMWormholeTransiting.h"
+#import "MMWormholeAppendingFile.h"
 
 typedef NS_ENUM(NSInteger, MMWormholeTransitingType) {
     MMWormholeTransitingTypeFile = 0,
     MMWormholeTransitingTypeCoordinatedFile,
+    MMWormholeTransitingTypeAppendingFile,
     MMWormholeTransitingTypeSessionContext,
     MMWormholeTransitingTypeSessionMessage,
     MMWormholeTransitingTypeSessionFile

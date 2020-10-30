@@ -88,6 +88,10 @@ void wormholeNotificationCallback(CFNotificationCenterRef center,
             case MMWormholeTransitingTypeFile:
                 // Default
                 break;
+            case MMWormholeTransitingTypeAppendingFile:
+                self.wormholeMessenger = [[MMWormholeAppendingFile alloc] initWithApplicationGroupIdentifier:identifier
+                                                                                           optionalDirectory:directory];
+                break;
             case MMWormholeTransitingTypeCoordinatedFile:
                 self.wormholeMessenger = [[MMWormholeCoordinatedFileTransiting alloc] initWithApplicationGroupIdentifier:identifier
                                                                                                        optionalDirectory:directory];

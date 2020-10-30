@@ -29,6 +29,8 @@
 		9B44A51C1B00572E00C9969A /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B44A4801B0055F500C9969A /* MMWormhole.m */; };
 		9B44A51D1B00572E00C9969A /* MMWormhole.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B44A47F1B0055F500C9969A /* MMWormhole.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B44A51E1B00572E00C9969A /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B44A4801B0055F500C9969A /* MMWormhole.m */; };
+		D7C4C99B254BEABB009448C9 /* MMWormholeAppendingFile.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C4C999254BEABB009448C9 /* MMWormholeAppendingFile.m */; };
+		D7C4C99C254BEABB009448C9 /* MMWormholeAppendingFile.h in Headers */ = {isa = PBXBuildFile; fileRef = D7C4C99A254BEABB009448C9 /* MMWormholeAppendingFile.h */; };
 		E9DBE1651B7DFA7200C9A9B5 /* MMWormholeUmbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9DBE1641B7DFA7200C9A9B5 /* MMWormholeUmbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9DBE1661B7DFA7200C9A9B5 /* MMWormholeUmbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9DBE1641B7DFA7200C9A9B5 /* MMWormholeUmbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -52,6 +54,8 @@
 		9B44A4801B0055F500C9969A /* MMWormhole.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMWormhole.m; sourceTree = "<group>"; };
 		9B44A4C61B00570E00C9969A /* MMWormhole.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMWormhole.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B44A5021B00571F00C9969A /* MMWormhole.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMWormhole.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C4C999254BEABB009448C9 /* MMWormholeAppendingFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMWormholeAppendingFile.m; sourceTree = "<group>"; };
+		D7C4C99A254BEABB009448C9 /* MMWormholeAppendingFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMWormholeAppendingFile.h; sourceTree = "<group>"; };
 		E9DBE1641B7DFA7200C9A9B5 /* MMWormholeUmbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMWormholeUmbrella.h; path = MMWormhole/MMWormholeUmbrella.h; sourceTree = SOURCE_ROOT; };
 		E9DBE1671B7DFAD400C9A9B5 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +117,8 @@
 		9B44A47E1B0055F500C9969A /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				D7C4C99A254BEABB009448C9 /* MMWormholeAppendingFile.h */,
+				D7C4C999254BEABB009448C9 /* MMWormholeAppendingFile.m */,
 				9B44A47F1B0055F500C9969A /* MMWormhole.h */,
 				9B44A4801B0055F500C9969A /* MMWormhole.m */,
 				55030BD61B165D8F005EFC19 /* MMWormholeCoordinatedFileTransiting.h */,
@@ -146,6 +152,7 @@
 				E9DBE1651B7DFA7200C9A9B5 /* MMWormholeUmbrella.h in Headers */,
 				9B44A51B1B00572E00C9969A /* MMWormhole.h in Headers */,
 				55AB6EFF1BA77D8F003908DC /* MMWormholeSessionMessageTransiting.h in Headers */,
+				D7C4C99C254BEABB009448C9 /* MMWormholeAppendingFile.h in Headers */,
 				55AB6EFB1BA77D8F003908DC /* MMWormholeSessionFileTransiting.h in Headers */,
 				55030BDA1B165D8F005EFC19 /* MMWormholeCoordinatedFileTransiting.h in Headers */,
 				55AB6F031BA77D8F003908DC /* MMWormholeTransiting.h in Headers */,
@@ -225,6 +232,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 9B44A4581B0055C500C9969A;
@@ -261,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55AB6EFD1BA77D8F003908DC /* MMWormholeSessionFileTransiting.m in Sources */,
+				D7C4C99B254BEABB009448C9 /* MMWormholeAppendingFile.m in Sources */,
 				55030BDC1B165D8F005EFC19 /* MMWormholeCoordinatedFileTransiting.m in Sources */,
 				55AB6EF51BA77D8F003908DC /* MMWormholeSession.m in Sources */,
 				55AB6EF91BA77D8F003908DC /* MMWormholeSessionContextTransiting.m in Sources */,
@@ -398,6 +407,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -422,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -442,6 +453,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -466,6 +478,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
