@@ -30,7 +30,7 @@
 		9B44A51D1B00572E00C9969A /* MMWormhole.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B44A47F1B0055F500C9969A /* MMWormhole.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B44A51E1B00572E00C9969A /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B44A4801B0055F500C9969A /* MMWormhole.m */; };
 		D7C4C99B254BEABB009448C9 /* MMWormholeAppendingFile.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C4C999254BEABB009448C9 /* MMWormholeAppendingFile.m */; };
-		D7C4C99C254BEABB009448C9 /* MMWormholeAppendingFile.h in Headers */ = {isa = PBXBuildFile; fileRef = D7C4C99A254BEABB009448C9 /* MMWormholeAppendingFile.h */; };
+		D7C4C99C254BEABB009448C9 /* MMWormholeAppendingFile.h in Headers */ = {isa = PBXBuildFile; fileRef = D7C4C99A254BEABB009448C9 /* MMWormholeAppendingFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9DBE1651B7DFA7200C9A9B5 /* MMWormholeUmbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9DBE1641B7DFA7200C9A9B5 /* MMWormholeUmbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9DBE1661B7DFA7200C9A9B5 /* MMWormholeUmbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9DBE1641B7DFA7200C9A9B5 /* MMWormholeUmbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -152,8 +152,8 @@
 				E9DBE1651B7DFA7200C9A9B5 /* MMWormholeUmbrella.h in Headers */,
 				9B44A51B1B00572E00C9969A /* MMWormhole.h in Headers */,
 				55AB6EFF1BA77D8F003908DC /* MMWormholeSessionMessageTransiting.h in Headers */,
-				D7C4C99C254BEABB009448C9 /* MMWormholeAppendingFile.h in Headers */,
 				55AB6EFB1BA77D8F003908DC /* MMWormholeSessionFileTransiting.h in Headers */,
+				D7C4C99C254BEABB009448C9 /* MMWormholeAppendingFile.h in Headers */,
 				55030BDA1B165D8F005EFC19 /* MMWormholeCoordinatedFileTransiting.h in Headers */,
 				55AB6F031BA77D8F003908DC /* MMWormholeTransiting.h in Headers */,
 			);
